@@ -1,0 +1,3 @@
+/*
+Predostavljam da je ovaj zadatak bio primjer jer je sintaksa napisana u zadatku.
+ */
