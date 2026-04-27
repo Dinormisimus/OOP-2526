@@ -48,6 +48,7 @@ public class Test {
             System.out.println(" - Age: " + elem.getKey().getAge());
             System.out.println(" - Values: " + Arrays.toString(elem.getValue()));
             System.out.println(" - HashCode: " + elem.getKey().hashCode());
+            System.out.println("_____________________________________________");
         }
     }
 }
