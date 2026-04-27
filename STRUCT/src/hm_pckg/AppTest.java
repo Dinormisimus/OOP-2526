@@ -1,9 +1,19 @@
 package hm_pckg;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 public class AppTest {
 
-    public static void main(String[] args){
-        String resultFile = POM_CLS.readDataTxtFile("./STRUCT/src/hm_pckg/data.txt");
+    static void main(String[] args) {
+        String resultFile = POM_CLS.readDataFromTextFile("./STRUCT/src/hm_pckg/data.txt");
         System.out.println(resultFile);
+        ArrayList<String[]> lines = POM_CLS.readDataAsListFromTextFile("./STRUCT/src/hm_pckg/data.txt");
+        POM_CLS.listArrayListElements(lines);
+        HashMap<String, String> scientist = POM_CLS.mapFromList(lines);
+        System.out.println(scientist);
+        POM_CLS.listMapElements(scientist);
+        System.out.println("-------------------------");
+        POM_CLS.listMapElementsFast(scientist);
     }
 }
