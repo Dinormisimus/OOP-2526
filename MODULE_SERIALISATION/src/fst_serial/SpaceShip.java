@@ -1,8 +1,9 @@
 package fst_serial;
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class SpaceShip {
+public class SpaceShip implements Serializable {
     private String spaceShipName;
     private int id;
     private static int cntID;
