@@ -1,0 +1,5 @@
+1. Kao izlaz dobivamo ArrayIndexOutOfBoundsException.
+
+2. Iznimka nas upozorava da pokušavamo pristupiti nepostojećem indeksu polja.
+
+3. Zadnji indeks polja uvijek je length - 1.

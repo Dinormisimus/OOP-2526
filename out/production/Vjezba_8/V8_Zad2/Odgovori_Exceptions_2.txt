@@ -1,0 +1,7 @@
+1. Problem je što korisnik može unijeti znak ili decimalni broj umjesto integer vrijednosti.
+
+2. Radi se o InputMismatchException iznimci.
+
+3. Problem rješavamo korištenjem try-catch bloka.
+
+4. Nakon pogrešnog unosa korisniku omogućujemo novi unos ili prekid programa.

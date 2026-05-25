@@ -1,0 +1,9 @@
+1. Ako pokušamo čitati datoteku koja ne postoji dobivamo FileNotFoundException.
+
+2. Riječ je o provjerenoj iznimci (checked exception).
+
+3. Problem rješavamo korištenjem try-catch bloka.
+
+4. Ako je datoteka postavljena na Read-only nije moguće zapisivati u nju te se pojavljuje IOException.
+
+5. Robustnost povećavamo tako da korisniku ispisujemo poruku o pogrešci i omogućimo novi unos naziva datoteke.
